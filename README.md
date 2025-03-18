@@ -2,7 +2,7 @@
 
 Learn Python by coding 10 mini projects is a free course by idently@youtube
 
-> [Project Github]('https://github.com/indently/beginner_python_projects/tree/main')
+> [Project Github](https://github.com/indently/beginner_python_projects/tree/main)
 
 ## Extension's found Useful:
 
