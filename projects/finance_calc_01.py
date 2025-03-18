@@ -16,6 +16,10 @@ def calculate_net_pay(monthly_income: float, tax_rate: float, currency: str = "U
     print(f"Yearly Income: {yearly_income:,.2f} {currency} and Yearly net pay: {yearly_net_pay:,.2f} {currency}")
 
 
-# we can call the function with different arguments
-calculate_net_pay(100, 20)
-#calculate_net_pay(100, 20, "EUR")
+def main() -> None:
+    monthly_income: float = float(input("Enter your monthly income: "))
+    tax_rate: float = float(input("Enter your tax rate: "))
+    calculate_net_pay(monthly_income, tax_rate, currency="KR")
+
+if __name__ == "__main__":
+    main()
