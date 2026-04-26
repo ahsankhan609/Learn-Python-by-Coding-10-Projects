@@ -12,7 +12,7 @@ def multiply(*numbers) -> float:
 
 # let's learn **kwargs
 
-def user_info(**kwargs):
+def user_info(**kwargs) -> str | None:
     for key, value in kwargs.items():
         return ", ".join(f"{key}: {value}" for key, value in kwargs.items())
 
