@@ -24,8 +24,8 @@ def get_float_input(prompt: str) -> float:
     while True:
         try:
             return float(input(prompt))
-        except ValueError:
-            print("Invalid input. Please enter a numeric value.")
+        except ValueError as e:
+            print(f"Invalid input. Please enter a numeric value.{e}")
 
 def get_expenses() -> dict:
     """Collects expenses from the user and returns them as a dictionary."""

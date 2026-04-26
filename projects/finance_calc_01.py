@@ -1,7 +1,8 @@
-# it should take out montly income and tax rate, and then calculate the monthly net take home pay
-
-def calculate_net_pay(monthly_income: float, tax_rate: float, currency: str = "USD") -> None: 
-    #if we use -> None: in the end of the function it means we are expecting None to rerurn from the function
+def calculate_net_pay(monthly_income: float, tax_rate: float, currency: str = "USD") -> None:
+    '''
+    it should take out monthly income and tax rate, and then calculate the monthly net take home salary.
+    '''
+    # if we use -> None: as type annotation, it means we are expecting None to return from the function
     # if we use -> float: in the end of the function it means we are expecting a float to return from the function
 
     # now we will create local variables
@@ -19,7 +20,7 @@ def calculate_net_pay(monthly_income: float, tax_rate: float, currency: str = "U
 def main() -> None:
     monthly_income: float = float(input("Enter your monthly income: "))
     tax_rate: float = float(input("Enter your tax rate: "))
-    calculate_net_pay(monthly_income, tax_rate, currency="KR")
+    calculate_net_pay(monthly_income, tax_rate, currency="PKR")
 
 if __name__ == "__main__":
     main()
