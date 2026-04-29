@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://google.com",
+    "is_online": true,
+    "status_code": 200,
+    "response_time": "1.81s",
+    "content_type": "text/html; charset=ISO-8859-1",
+    "server": "gws",
+    "title": "Google",
+    "ssl_valid": true,
+    "redirect_url": "https://www.google.com/",
+    "error_message": null,
+    "checked_at": "2026-04-29T21:18:41.495753"
+  },
+  {
+    "url": "https://github.com",
+    "is_online": true,
+    "status_code": 200,
+    "response_time": "1.06s",
+    "content_type": "text/html; charset=utf-8",
+    "server": "github.com",
+    "title": "GitHub \u00b7 Change is constant. GitHub keeps you ahead. \u00b7 GitHub",
+    "ssl_valid": true,
+    "redirect_url": null,
+    "error_message": null,
+    "checked_at": "2026-04-29T21:18:43.352142"
+  },
+  {
+    "url": "https://invalid-website-12345.com",
+    "is_online": false,
+    "status_code": null,
+    "response_time": null,
+    "content_type": null,
+    "server": null,
+    "title": null,
+    "ssl_valid": null,
+    "redirect_url": null,
+    "error_message": "Connection error: HTTPSConnectionPool(host='invalid-website-12345.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='invalid-website-12345.com', port=443): Failed to resolve 'invalid-website-12345.com' ([Errno 11001] getaddrinfo failed)\"))",
+    "checked_at": "2026-04-29T21:18:43.659889"
+  }
+]
