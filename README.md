@@ -16,3 +16,6 @@ Usage Example (run this code in terminal to check if thers is any issue):
 ```bash
 mypy main.py
 ```
+
+> sometime python annotation ask for `#type:ignore` to **supress the error**. so we just write `#type:ignore` in **front
+of line**, and that error will be suppressed.
