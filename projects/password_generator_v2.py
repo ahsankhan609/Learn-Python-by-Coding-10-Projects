@@ -246,7 +246,7 @@ def main() -> None:
 
     except Exception as e:
         # کوئی بھی unexpected error
-        print(f"\n Unexpected Error آئی: {e}")
+        print(f"\n any Unexpected Error: {e}")
 
 
 if __name__ == "__main__":
